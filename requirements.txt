@@ -1,0 +1,33 @@
+# Project Requirements
+# Install with: pip install -r requirements.txt
+
+# Core TTS System
+piper-tts>=1.2.0
+
+# Audio Processing
+librosa>=0.10.0
+numpy>=1.26.0,<2.0
+scipy>=1.12.0
+soundfile>=0.12.1
+
+# Data Processing & Storage
+# Updated to 2.4.0+ for Python 3.12 support
+pydantic>=2.4.0
+# Updated to 6.0.1+ to fix build error
+pyyaml>=6.0.1
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Visualization (optional)
+# Updated to 3.8.0+ for Python 3.12 support
+matplotlib>=3.8.0
+
+# Logging & Monitoring
+python-json-logger>=2.0.7
+
+# Development (optional)
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.4.1
